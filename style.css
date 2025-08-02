@@ -1,0 +1,166 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f7f7;
+    color: #3f3f3f;
+    line-height: 1.6;
+}
+
+/* Welcome box */
+.welcome-box {
+    background: linear-gradient(135deg, #f8c8dc, #d5e8ff);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.welcome-box h3 {
+    color: #6a67ce;
+    margin-bottom: 10px;
+}
+
+.welcome-box p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Metric cards */
+.css-1fv8s86 {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.css-1fv8s86:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* Form styling - Consolidated */
+.stForm {
+    background-color: #0b0b0b;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+}
+
+/* Form elements */
+.stTextInput>div>div>input,
+.stNumberInput>div>div>input,
+.stSelectbox>div>div>select,
+.stMultiselect>div>div>div {
+    color: #fff;
+}
+
+.stTextInput label,
+.stNumberInput label,
+.stSelectbox label,
+.stMultiselect label,
+.stCheckbox label,
+.stRadio label {
+    color: #6a67ce;
+    font-weight: 600;
+}
+
+/* Buttons - Consolidated */
+.stButton>button {
+    background: linear-gradient(135deg, #6a67ce, #9b59b6);
+    color: rgb(7, 7, 7);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(106, 103, 206, 0.3);
+    background: linear-gradient(135deg, #7e7bd6, #aa66c4);
+}
+
+/* Sidebar */
+.css-1d391kg {
+    background: linear-gradient(to bottom, #f8c8dc, #d5e8ff);
+    padding: 20px 15px;
+}
+
+/* Headers */
+h1 {
+    color: #6a67ce;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #9b59b6;
+    margin-top: 1.5rem;
+}
+
+/* Rating badges */
+.rating-badge {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.rating-badge.Poor {
+    background-color: #ff6b6b;
+    color: rgb(11, 10, 10);
+}
+
+.rating-badge.Average {
+    background-color: #ffd166;
+    color: #333;
+}
+
+.rating-badge.Good {
+    background-color: #06d6a0;
+    color: rgb(14, 13, 13);
+}
+
+.rating-badge.Excellent {
+    background-color: #118ab2;
+    color: rgb(16, 16, 16);
+}
+
+/* Expanders */
+.stExpander {
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+/* Dataframes */
+.stDataFrame {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Personalization elements */
+.user-greeting {
+    color: #d35d8a;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.progress-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(211, 93, 138, 0.1);
+}
+
+.trend-line {
+    stroke: #d35d8a;
+    stroke-width: 3px;
+}
