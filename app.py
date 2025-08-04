@@ -196,6 +196,7 @@ def show_auth():
     tab1, tab2 = st.tabs(["Login", "Register"])
     
     with tab1:
+        st.info("Sample Guest Login:\n\n**Username:** guest\n   **Password:** guest1")
         with st.form("login_form"):
             st.subheader("Login to Your Account")
             username = st.text_input("Username")
