@@ -18,8 +18,8 @@
 - **Calorie Tracker**: Intake vs. burned visualization
 
 ## Media
-# Video Demo
-
+# Live Demo
+https://wellher-gemini-app.streamlit.app/
 # Screenshots
 <img width="2559" height="1336" alt="Screenshot 2025-08-02 164153" src="https://github.com/user-attachments/assets/d91d52fd-0c7c-4328-978c-cc862f070587" />
 <img width="2559" height="1335" alt="Screenshot 2025-08-02 164849" src="https://github.com/user-attachments/assets/e9450bee-c972-46fe-9376-7265d18d875b" />
